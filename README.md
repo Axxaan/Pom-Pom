@@ -17,7 +17,7 @@ A web app for Honkai Star Rail players to get team building and relic advice thr
 
 ---
 
-## <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Sticker_PPG_07_Pom-Pom_07.png/revision/latest?cb=20230717183711" width="80" align="center" alt="Pom-Pom confused" /> What it does
+## <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Sticker_PPG_07_Pom-Pom_07.png/revision/latest?cb=20230717183711" width="120" align="center" alt="Pom-Pom confused" /> What it does
 
 You type in a question like *"I have Acheron and Mortenax Blade, who should I run with them?"* and Pom-Pom gives you a breakdown of team compositions, relic sets, and playstyle tips. It knows the current roster and pulls in relevant character data based on what you ask about.
 
@@ -34,7 +34,7 @@ You type in a question like *"I have Acheron and Mortenax Blade, who should I ru
 
 ---
 
-## <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Sticker_PPG_07_Pom-Pom_09.png/revision/latest?cb=20250725220422" width="80" align="center" alt="Pom-Pom teaching" /> How it works
+## <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Sticker_PPG_07_Pom-Pom_09.png/revision/latest?cb=20250725220422" width="120" align="center" alt="Pom-Pom teaching" /> How it works
 
 The React frontend sends your message to an Express proxy server, which injects relevant HSR character data into the prompt before forwarding it to the Claude API. The proxy keeps the API key secure server-side and handles CORS between the two deployed services.
 
@@ -51,7 +51,7 @@ React frontend  →  Express proxy  →  Claude API
 
 ---
 
-## 🚀 Running locally
+## <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Sticker_PPG_07_Pom-Pom_14.png/revision/latest?cb=20230717183719" width="120" align="center" alt="Pom-Pom running" /> Running locally
 
 ```bash
 # Clone the repo
