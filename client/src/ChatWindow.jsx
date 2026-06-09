@@ -22,7 +22,9 @@ function ChatWindow({ messages, isLoading }) {
       ))}
       {isLoading && (
         <div className="message message--assistant">
-          <div className="message-bubble message-bubble--thinking">Claude is thinking...</div>
+          <div className="message-bubble message-bubble--thinking">
+            Pom-Pom is pondering<span className="thinking-dots"><span>.</span><span>.</span><span>.</span></span>
+          </div>
         </div>
       )}
       <div ref={bottomRef} />
