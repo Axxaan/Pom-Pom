@@ -38,7 +38,7 @@ You type in a question like *"I have Acheron and Mortenax Blade, who should I ru
 
 The React frontend sends your message to an Express proxy server, which injects relevant HSR character data into the prompt before forwarding it to the Claude API. The proxy keeps the API key secure server-side and handles CORS between the two deployed services.
 
-Character data lives in a structured JSON file. When you mention a character, the server pulls their entry plus their recommended teammates and injects all of it as context — so the AI has accurate, up-to-date game data to reason from rather than relying on potentially outdated training data.
+Character data lives in a structured JSON file. When you mention a character, the server pulls their entry plus their recommended teammates and injects all of it as context. The AI has accurate, up-to-date game data to reason from rather than relying on potentially outdated training data.
 
 ```
 User message
