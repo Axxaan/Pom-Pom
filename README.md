@@ -37,9 +37,9 @@ You type in a question like *"I have Acheron and Mortenax Blade, who should I ru
 ## 🔧 Notable implementation details
 
 - Stateful multi-turn chat with full conversation history passed to the API on every request
-- API key secured server-side via an Express proxy — never exposed to the browser
+- API key secured server-side via an Express proxy 
 - Dynamic prompt engineering with per-request context injection, pulling relevant character and teammate data from a structured JSON file based on what the user asks about
-- Teammate chain resolution — when a character is mentioned, the server also pulls in full entries for all their listed teammates, giving the AI accurate data on newer characters it may not have been trained on
+- Teammate chain resolution, when a character is mentioned, the server also pulls in full entries for all their listed teammates, giving the AI accurate data on newer characters it may not have been trained on
 - Markdown rendering via `react-markdown` + `remark-gfm` for formatted responses including tables, bullet points, and bold text
 - Production deployment across two platforms (Vercel + Railway) with environment-specific CORS configuration and Vite build-time environment variables
 - Character alias resolution maps common nicknames (e.g. "DHIL", "SAM", "TB Harmony") to canonical character names before context lookup
